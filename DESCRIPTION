@@ -1,0 +1,28 @@
+Package: pistachiocb
+Title: Pistachio Daily Carbon Budget
+Version: 0.0.1
+Authors@R: person("Tommy", "Ngo", email = "pminh0404@gmail.com", role = c("aut","cre"))
+Description: Tools to compute pistachio daily carbon budget from CIMIS weather and growth curves.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0)
+Imports:
+    dplyr (>= 1.1.0),
+    readr,
+    bigleaf,
+    tibble,
+    rlang,
+    magrittr
+Suggests:
+    minpack.lm,
+    plotly,
+    shiny,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    pkgdown
+Config/testthat/edition: 3
+
+

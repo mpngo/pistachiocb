@@ -1,0 +1,31 @@
+# R and RStudio session files
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+*.Rproj.user
+
+# Local configuration and credentials
+.Renviron
+.Renviron.*
+!.Renviron.example
+.env
+.env.*
+!.env.example
+
+# Deployment records and local package libraries
+rsconnect/
+renv/library/
+renv/staging/
+packrat/lib/
+packrat/src/
+
+# R build output
+*.Rcheck/
+*.tar.gz
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
