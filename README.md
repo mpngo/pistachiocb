@@ -2,6 +2,12 @@
 
 An R Shiny app that estimates daily pistachio carbon supply, respiration, growth demand, and net carbon budget from hourly CIMIS weather data and leaf and fruit counts.
 
+## Live app
+
+[Open the Pistachio Branch Carbon Budget Model](https://mpngo0404.shinyapps.io/pistachiocb/)
+
+The app is hosted on shinyapps.io and runs in your browser without a local R installation.
+
 ## Run locally
 
 Install R 4.1 or later, then clone this repository and open `pistachiocb.Rproj` in RStudio, or set your R working directory to the repository folder.
